@@ -107,7 +107,7 @@ function Bed(config) {
 
     };
 
-    // REST by URL parameters
+    // REST as JavaScript functions
     p.cfg = config;
 
     if (!p.cfg.host) p.__error("MISSING bedcfg.host");
